@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RandomForest">
+      <UniqueIdentifier>{732702ed-f9bc-4d45-bb1b-d7af0a81b98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CmLib">
+      <UniqueIdentifier>{54ea571a-d831-465e-99d3-a5b20e512025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SaliencyDRFI">
+      <UniqueIdentifier>{68e1fcf0-e1dd-4d69-b2be-5f5d89535c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CmLib\pffSegmentation">
+      <UniqueIdentifier>{236e39c2-2b7b-4738-908a-b1c04bd68681}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CmLib\CmDefinition.cpp">
+      <Filter>CmLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CmLib\EfficientGraphBased\segment-image.cpp">
+      <Filter>CmLib\pffSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RF_Reg_C\cokus.cpp">
+      <Filter>RandomForest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RF_Reg_C\reg_RF.cpp">
+      <Filter>RandomForest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DRFI\RegionFeature.cpp">
+      <Filter>SaliencyDRFI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DRFI\SalDRFI.cpp">
+      <Filter>SaliencyDRFI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainDRFI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CmLib\CmDefinition.h">
+      <Filter>CmLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CmLib\EfficientGraphBased\disjoint-set.h">
+      <Filter>CmLib\pffSegmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CmLib\EfficientGraphBased\filter.h">
+      <Filter>CmLib\pffSegmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CmLib\EfficientGraphBased\image.h">
+      <Filter>CmLib\pffSegmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CmLib\EfficientGraphBased\segment-graph.h">
+      <Filter>CmLib\pffSegmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CmLib\EfficientGraphBased\segment-image.h">
+      <Filter>CmLib\pffSegmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RF_Reg_C\qsort.h">
+      <Filter>RandomForest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RF_Reg_C\reg_RF.h">
+      <Filter>RandomForest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DRFI\RegionFeature.h">
+      <Filter>SaliencyDRFI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DRFI\SalDRFI.h">
+      <Filter>SaliencyDRFI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
