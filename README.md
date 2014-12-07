@@ -3,9 +3,9 @@ drfi_cpp
 
 C++ implementation of the paper Salient Object Detection: A Discriminative Regional Feature Integration Approach
 
-This implementation is dependent on the OpenCV library. For Windows users, a Visual Studio 2010 solution is created. For Linux users, a naive Makefile is provided. Make sure that the OpenMP switch is open to achieve the best performance.
+This implementation is dependent on the OpenCV library. For Windows users, a Visual Studio 2010 solution is created. For Linux users, a naive Makefile is provided. Make sure that the OpenMP switch is turned on to achieve the best performance.
 
-Before testing, you might want to download our pre-trained Random Forest model, which is available at http://jianghz.com/drfi/files/drfiModelCpp.data. Put it under the same folder with generated binary DRFI file.
+Before testing, you might want to download our pre-trained Random Forest model, which is available at http://jianghz.com/drfi/files/drfiModelCpp.zip. Put it under the same folder with generated binary DRFI file.
 
 Tested on Windows 7 64bit with Visual Studio 2010 and Ubuntu 12.04 64bit with GCC 4.8.3.
 
